@@ -37,11 +37,9 @@ const Login = props => {
   return (
     <div className="login-container">
       <h1 className="login-heading">Please Login</h1>
-      <form>
-        <button type="submit" className="login-button" onClick={onClickLogin}>
-          Login with Sample Creds
-        </button>
-      </form>
+      <button type="button" onClick={onClickLogin}>
+        Login with Sample Creds
+      </button>
     </div>
   )
 }
